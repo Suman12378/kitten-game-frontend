@@ -31,9 +31,7 @@ const Login = () => {
 
         dispatch({type:'update-state',payload:userState})
 
-        dispatch({type:'LogIn', payload:{
-          userDetails
-        }});
+        dispatch({type:'LogIn', payload:userDetails});
         navigate('/start');
       }
       catch(err){

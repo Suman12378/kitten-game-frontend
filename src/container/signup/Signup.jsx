@@ -27,9 +27,7 @@ const Signup = () => {
         confirmPassword:repassword.current.value,
       })
         // console.log(user);
-        dispatch({type:'SignIn', payload:{
-          user
-        }});
+        dispatch({type:'SignIn', payload:user});
         navigate('/start');
         
      }

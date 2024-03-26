@@ -1,3 +1,5 @@
+//userReducer.js
+
 import { createReducer } from '@reduxjs/toolkit'
 
 const userReducer = createReducer(
@@ -8,11 +10,11 @@ const userReducer = createReducer(
         builder
         .addCase('SignIn',(state, action)=>{
             // console.log(action.payload);
-             state.user = action.payload.user;
+             state.user = action.payload;
         })
         .addCase('LogIn', (state, action)=>{
             console.log(action.payload)
-            state.user = action.payload.userDetails;
+            state.user = action.payload;
         })
         .addCase('LogOut',(state,action)=>{
             state.user = null;
