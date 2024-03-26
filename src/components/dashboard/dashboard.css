@@ -1,0 +1,54 @@
+.kitten-game-dashboard {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  margin: 20px; /* Add margin around the dashboard */
+}
+
+.kitten-game-dashboard-head {
+  margin-bottom: 30px; /* Increase margin between head and mid */
+  /* text-align: center; */
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.kitten-game-dashboard-head span {
+  font-weight: bold;
+}
+
+.kitten-game-dashboard-head ul {
+  padding-left: 0; /* Remove default padding */
+}
+
+.kitten-game-dashboard-head ul li {
+  margin-top: 30px; /* Add margin between list items */
+  text-align: left; /* Align list items to the left */
+  font-size: 16px; /* Change font size */
+  font-family: Arial, sans-serif; /* Change font family */
+}
+
+.kitten-game-dashboard-mid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.dashboard-card {
+  width: calc(20% - 20px); /* Set width for each card, accounting for margin */
+  margin: 10px; /* Adjust margin between cards */
+  cursor: pointer; /* Change cursor to pointer on hover */
+  transition: transform 0.3s ease-in-out; /* Add transition effect */
+}
+
+.dashboard-card img {
+  width: 100%; /* Ensure image fills entire card */
+}
+
+.dashboard-card:hover {
+  transform: scale(1.03); /* Increase size of card on hover */
+}
+
+
+.dashboard-footer-content{
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+}

@@ -1,0 +1,54 @@
+.profile-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+  }
+  
+  .avatar {
+    width: 150px;
+    height: 150px;
+    /* background-color: #ccc; */
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .dummy-avatar {
+    font-size: 80px; /* Adjust icon size */
+    color: #ffffff; /* Icon color */
+    background-color: #999999; /* Background color for avatar */
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 140px; /* Width and height of avatar */
+    height: 140px;
+  }
+  
+  .profile-info {
+    text-align: center;
+  }
+  
+  .user-details {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+  }
+  
+  .user-details p {
+    margin: 10px 0; /* Adjust top and bottom margin */
+    font-size: 16px;
+    display: flex; /* Align items horizontally */
+    align-items: center;
+  }
+  
+  .user-details p span {
+    font-weight: bold;
+    margin-right: 10px;
+    min-width: 100px; /* Ensure consistent width for labels */
+  }
+  

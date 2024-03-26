@@ -1,0 +1,59 @@
+.kitten-game-home {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 91vh;
+    background-color: #f5f5f5; /* Light gray background */
+  }
+  
+  .kitten-game-home .home-body {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .kitten-game-home .home-body p {
+    font-size: 55px;
+    color: #333; /* Dark text color */
+  }
+  
+  .kitten-game-home .home-body span {
+    font-weight: bold;
+    color: #ff6347; /* Red color for "Kitten Exploding" */
+  }
+  
+  .kitten-game-home .home-footer {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  .kitten-game-home .home-footer .buttons {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+  }
+  
+  .kitten-game-home .home-footer .buttons button {
+    margin-left: 10px;
+    margin-right: 20px;
+    background-color: #ff6347; /* Red button color */
+    color: #fff; /* White button text color */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .kitten-game-home .home-footer .buttons button:hover {
+    background-color: #cc4c39; /* Darker red on hover */
+  }
+  
+  .kitten-game-home .home-footer .buttons button:last-child {
+    margin-left: 0;
+  }
+  

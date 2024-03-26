@@ -1,0 +1,33 @@
+.kitten-game-navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ff6347; /* Red color theme */
+    padding: 10px 20px;
+    color: #fff; /*White text color*/
+    
+  }
+  
+  .logo {
+    font-size: 1.5rem; /* Adjust logo font size */
+  }
+  
+  .nav-items {
+    display: flex;
+  }
+  
+  .nav-items button {
+    margin-left: 10px; /* Adjust button spacing */
+    padding: 10px 20px; /* Adjust button padding */
+    background-color: transparent;
+    color: #fff; /* White button text color */
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .nav-items button:hover {
+    background-color: rgba(255, 255, 255, 0.1); /* Semi-transparent white on hover */
+  }
+  

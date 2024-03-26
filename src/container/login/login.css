@@ -1,0 +1,63 @@
+.kitten-game-login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f5f5f5; /* Light gray background */
+  }
+  
+  .login-form {
+    background-color: #fff; /* White background for the form */
+    padding: 20px;
+    border-radius: 5px;
+    height: 40%;
+    width: 40%;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Shadow effect */
+  }
+  
+  .login-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .login-form form {
+    display: flex;
+    flex-direction: column;
+    
+  }
+  
+  .login-form .form-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  
+  .login-form label {
+    width: 150px; /* Adjust label width */
+    margin-right: 10px;
+  }
+  
+  .login-form input[type='text'],
+  .login-form input[type='password'] {
+    flex: 1; /* Take remaining space */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    outline: none;
+  }
+  
+  .login-form button[type='submit'] {
+    margin-top: 10px;
+    background-color: #ff6347; /* Red button color */
+    color: #fff; /* White button text color */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .login-form button[type='submit']:hover {
+    background-color: #cc4c39; /* Darker red on hover */
+  }
+  

@@ -1,0 +1,38 @@
+.kitten-game-leaderboard {
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    padding: 20px;
+   
+  }
+  
+  .information {
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 15px;
+    box-shadow: 0 2px 4px rgba(8, 6, 6, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .username {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333333;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .score {
+    font-size: 16px;
+    color: #888888;
+    margin-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .score::before {
+    content: "Score: ";
+    font-weight: bold;
+    color: #555555;
+  }
+  
