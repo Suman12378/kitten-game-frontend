@@ -1,70 +1,79 @@
-# Getting Started with Create React App
+# Kitten Game Frontend
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This repository contains the frontend code for the Kitten Game application. It provides a user interface for playing the game, managing user accounts, and viewing leaderboard data.
+
+## Getting Started
+
+To get started with the frontend development environment, follow these steps:
+
+1. Clone the repository to your local machine: git clone <repository-url>
+
+2. Install dependencies: npm install
+
+
+3. Set up environment variables:
+- If necessary, create a `.env` file in the root directory to define environment variables such as `REACT_APP_API_URL` for communicating with the backend API.
+
+4. Start the development server: npm start
+
+## Folder Structure
+
+The project structure is organized as follows:
+
+- **src:** Contains the source code for the React components, styles, and other frontend assets.
+- **public:** Contains static assets and the HTML template.
 
 ## Available Scripts
 
-In the project directory, you can run:
+- **start:** Starts the development server.
 
-### `npm start`
+- **build:** Builds the production-ready assets.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **test:** Runs test suites (if any).
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **eject:** Ejects the Create React App configuration for customization.
 
-### `npm test`
+## Dependencies
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **axios:** Library for making HTTP requests.
+- **react:** JavaScript library for building user interfaces.
+- **react-dom:** React package for working with the DOM.
+- **react-hot-toast:** Library for displaying toast notifications.
+- **react-redux:** Library for managing application state in React.
+- **react-router-dom:** Library for routing in React applications.
+- **redux-persist:** Library for persisting Redux state.
+- **@reduxjs/toolkit:** Toolkit for efficient Redux development.
 
-### `npm run build`
+## Components
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **Login:** Component for user login.
+- **Signup:** Component for user registration.
+- **Home:** Landing page component.
+- **Navbar:** Navigation bar component.
+- **Leaderboard:** Component for displaying leaderboard data.
+- **Profile:** Component for displaying user profile information.
+- **Dashboard:** Component for the game dashboard.
+- **WinCard:** Component for displaying the win message.
+- **LossCard:** Component for displaying the loss message.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## API Endpoints
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- **POST /v1/login:** Endpoint for user login.
+- **POST /v1/register:** Endpoint for user registration.
+- **POST /v1/leaderboard:** Endpoint for fetching leaderboard data.
+- **POST /v1/fetchstate:** Endpoint for fetching game state.
+- **POST /v1/updatestate:** Endpoint for updating game state.
+- **GET /v1/draw-card:** Endpoint for drawing a card.
+- **POST /v1/updatescore:** Endpoint for updating user score.
 
-### `npm run eject`
+## Contributing
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Contributions are welcome! Please follow the [contribution guidelines](CONTRIBUTING.md) before submitting a pull request.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## License
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+This project is licensed under the [MIT License](LICENSE).
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Author
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Suman Thakur
